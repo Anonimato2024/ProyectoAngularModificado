@@ -1,0 +1,38 @@
+/* Estilos CSS para el contenedor principal */
+.container {
+  background-color: #ffd1dc; /* Fondo rosa claro */
+  padding: 30px; /* Espaciado interior */
+  border-radius: 15px; /* Bordes redondeados */
+  text-align: center; /* Centra el contenido */
+  max-width: 700px; /* Ancho máximo */
+  margin: 0 auto; /* Centra horizontalmente */
+}
+
+/* Estilos para el título */
+.title {
+  color: #A80000; /* Color de texto rojo oscuro */
+  font-size: 2.5rem; /* Tamaño del texto */
+  margin-bottom: 30px; /* Margen inferior */
+}
+
+/* Estilos para la lista de héroes */
+.heroes-list {
+  margin-bottom: 30px; /* Margen inferior */
+}
+
+/* Estilos para los enlaces de los héroes */
+.hero-link {
+  display: inline-block; /* Muestra como bloque en línea */
+  background-color: #ff69b4; /* Fondo rosa brillante */
+  color: #fff; /* Color de texto blanco */
+  text-decoration: none; /* Quita la subrayado */
+  padding: 15px 30px; /* Espaciado interior */
+  border-radius: 8px; /* Bordes redondeados */
+  margin: 0 15px 15px; /* Margen alrededor */
+  transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+/* Estilos al pasar el cursor sobre los enlaces de los héroes */
+.hero-link:hover {
+  background-color: #ff1493; /* Cambia el color de fondo al pasar el cursor */
+}

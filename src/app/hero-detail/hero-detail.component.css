@@ -1,0 +1,40 @@
+/* Estilos CSS privados de HeroDetailComponent */
+
+/* Estilos para las etiquetas */
+label {
+  color: #fff; /* Color de texto blanco */
+  font-weight: bold; /* Fuente en negrita */
+}
+
+/* Estilos para los campos de entrada */
+input {
+  font-size: 1em; /* Tamaño de la fuente */
+  padding: .5rem; /* Espaciado interior */
+  border-radius: 4px; /* Bordes redondeados */
+}
+
+/* Estilos para los botones */
+button {
+  margin-top: 20px; /* Margen superior */
+  margin-right: .5rem; /* Margen derecho */
+  background-color: #ffcccc; /* Fondo rosa claro */
+  padding: 1rem; /* Espaciado interior */
+  border-radius: 4px; /* Bordes redondeados */
+  font-size: 1rem; /* Tamaño de la fuente */
+  color: #435960; /* Color de texto */
+  border: none; /* Borde ninguno */
+  cursor: pointer; /* Cursor de puntero */
+  transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+/* Estilos al pasar el cursor sobre los botones */
+button:hover {
+  background-color: #ffa6b0; /* Cambia el color de fondo al pasar el cursor */
+}
+
+/* Estilos para los botones desactivados */
+button:disabled {
+  background-color: #eee; /* Fondo gris claro */
+  color: #ccc; /* Color de texto gris */
+  cursor: auto; /* Cursor predeterminado */
+}

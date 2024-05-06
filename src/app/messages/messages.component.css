@@ -1,0 +1,24 @@
+/* MessagesComponent's private CSS styles */
+
+/* Estilo para el título */
+h2 {
+  color: #e1e6e5; /* Color de texto rojo oscuro */
+  font-family: Arial, Helvetica, sans-serif; /* Fuente del texto */
+  font-weight: lighter; /* Hace el texto más ligero */
+}
+
+/* Estilo para el elemento "clear" */
+.clear {
+  color: #333; /* Color de texto */
+  background-color: #eee; /* Color de fondo gris claro */
+  margin-bottom: 12px; /* Margen inferior */
+  padding: 1rem; /* Relleno */
+  border-radius: 4px; /* Bordes redondeados */
+  font-size: 1rem; /* Tamaño de la fuente */
+}
+
+/* Estilo al pasar el cursor sobre el elemento "clear" */
+.clear:hover {
+  color: white; /* Cambia el color de texto al pasar el cursor */
+  background-color: #42545C; /* Cambia el color de fondo al pasar el cursor */
+}

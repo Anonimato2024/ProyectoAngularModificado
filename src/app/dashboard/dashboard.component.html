@@ -1,0 +1,26 @@
+<!-- Contenedor principal -->
+<div class="container">
+  <!-- Encabezado -->
+  <header class="header">
+    <!-- Título -->
+    <h1 class="title">Heroes Top</h1>
+  </header>
+
+  <!-- Contenido principal -->
+  <div class="content">
+    <!-- Lista de héroes -->
+    <div class="heroes-list">
+      <!-- Itera sobre una lista de héroes -->
+      @for(hero of heroes; track hero.id){
+        <!-- Enlace para detalles del héroe -->
+        <a class="hero-link"
+          routerLink="/detail/{{hero.id}}">
+          {{hero.name}}
+        </a>
+      }
+    </div>
+
+    <!-- Componente de búsqueda de héroes -->
+    <app-hero-search></app-hero-search>
+  </div>
+</div>

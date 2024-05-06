@@ -1,0 +1,62 @@
+/* Estilos privados de HeroSearch */
+
+/* Estilo para etiquetas */
+label {
+  display: block; /* Hace que las etiquetas ocupen toda la línea */
+  font-weight: bold; /* Texto en negrita */
+  font-size: 1.2rem; /* Tamaño de fuente */
+  margin-top: 1rem; /* Margen superior */
+  margin-bottom: .5rem; /* Margen inferior */
+  color: #fff; /* Color de texto blanco */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra de texto para resaltar */
+}
+
+/* Estilo para campos de entrada */
+input {
+  padding: .5rem; /* Espaciado interno */
+  width: 100%; /* Ancho completo */
+  max-width: 600px; /* Ancho máximo */
+  box-sizing: border-box; /* Incluye el padding y el border en el ancho total */
+  display: block; /* Hace que el campo de entrada ocupe toda la línea */
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+  border: 1px solid #ccc; /* Borde gris claro */
+  color: #333; /* Color de texto gris oscuro */
+}
+
+/* Estilo al enfocar un campo de entrada */
+input:focus {
+  outline: #336699 auto 1px; /* Borde de enfoque azul */
+  background-color: #fff; /* Fondo blanco */
+}
+
+/* Estilo para listas sin viñetas */
+li {
+  list-style-type: none; /* Quita las viñetas de las listas */
+}
+
+/* Estilo para enlaces en los resultados de búsqueda */
+.search-result li a {
+  border-bottom: 1px solid #ccc; /* Borde inferior gris claro */
+  border-left: 1px solid #ccc; /* Borde izquierdo gris claro */
+  border-right: 1px solid #ccc; /* Borde derecho gris claro */
+  display: inline-block; /* Muestra como bloque en línea */
+  width: 100%; /* Ancho completo */
+  max-width: 600px; /* Ancho máximo */
+  padding: .5rem; /* Espaciado interno */
+  box-sizing: border-box; /* Incluye el padding y el border en el ancho total */
+  text-decoration: none; /* Quita la subrayado de los enlaces */
+  color: #fff; /* Color de texto blanco */
+  background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+}
+
+/* Estilo al pasar el cursor sobre los enlaces en los resultados de búsqueda */
+.search-result li a:hover {
+  background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco más opaco al pasar el cursor */
+  color: #333; /* Color de texto gris oscuro */
+}
+
+/* Estilo para la lista de resultados de búsqueda */
+ul.search-result {
+  margin-top: 0; /* Sin margen superior */
+  padding-left: 0; /* Sin relleno a la izquierda */
+}

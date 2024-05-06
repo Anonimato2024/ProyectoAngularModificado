@@ -1,0 +1,94 @@
+/* Estilos para el contenedor principal */
+.container {
+  background-color: #ffcccc; /* Fondo rojo claro */
+  padding: 20px; /* Espaciado interior */
+  border-radius: 10px; /* Bordes redondeados */
+  max-width: 600px; /* Ancho máximo del contenedor */
+  margin: 0 auto; /* Centra horizontalmente */
+}
+
+/* Estilos para el título */
+h2 {
+  color: #333; /* Color de texto gris oscuro */
+  font-size: 1.8rem; /* Tamaño de fuente más grande */
+  margin-bottom: 20px; /* Margen inferior */
+}
+
+/* Estilos para el formulario de agregar héroe */
+.add-hero-form {
+  margin-bottom: 20px; /* Margen inferior */
+}
+
+.add-hero-form label {
+  display: block; /* Muestra como bloque */
+  color: #555; /* Color de texto gris más oscuro */
+  font-weight: bold; /* Texto en negrita */
+  margin-bottom: 10px; /* Margen inferior */
+}
+
+.add-hero-form input {
+  padding: 10px; /* Espaciado interior */
+  width: calc(100% - 20px); /* Ancho ajustado para tener en cuenta el padding */
+  max-width: 400px; /* Ancho máximo */
+  border-radius: 5px; /* Bordes redondeados */
+  border: 1px solid #ccc; /* Borde gris claro */
+  font-size: 1rem; /* Tamaño de fuente */
+}
+
+.add-hero-form button {
+  padding: 10px 20px; /* Espaciado interior más grande */
+  background-color: #ff6666; /* Fondo rojo claro */
+  color: #fff; /* Color de texto blanco */
+  border: none; /* Borde ninguno */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor de puntero */
+  transition: background-color 0.3s, color 0.3s; /* Transición suave de color */
+  font-size: 1rem; /* Tamaño de fuente */
+}
+
+.add-hero-form button:hover {
+  background-color: #ff3333; /* Fondo rojo más oscuro al pasar el cursor */
+}
+
+/* Estilos para la lista de héroes */
+.heroes-list {
+  list-style-type: none; /* Quita las viñetas de la lista */
+  padding: 0; /* Quita el relleno */
+}
+
+.heroes-list li {
+  margin-bottom: 10px; /* Margen inferior */
+  background-color: #fff; /* Fondo blanco */
+  padding: 15px; /* Espaciado interior más grande */
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+.heroes-list li .badge {
+  background-color: #ff6666; /* Fondo rojo claro */
+  color: #fff; /* Color de texto blanco */
+  padding: 5px 10px; /* Espaciado interior */
+  border-radius: 3px; /* Bordes redondeados */
+  margin-right: 10px; /* Margen derecho */
+}
+
+.heroes-list li a {
+  text-decoration: none; /* Quita la subrayado de los enlaces */
+  color: #333; /* Color de texto gris oscuro */
+}
+
+/* Estilos para el botón de eliminar héroe */
+.delete-button {
+  background-color: #ff6666; /* Fondo rojo claro */
+  color: #fff; /* Color de texto blanco */
+  padding: 8px 12px; /* Espaciado interior */
+  border: none; /* Borde ninguno */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cursor de puntero */
+  transition: background-color 0.3s, color 0.3s; /* Transición suave de color */
+  font-size: 1rem; /* Tamaño de fuente */
+}
+
+.delete-button:hover {
+  background-color: #ff3333; /* Fondo rojo más oscuro al pasar el cursor */
+}
